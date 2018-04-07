@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginStart="32dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="32dp">
+
+    <TextView
+        android:id="@+id/iptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ip"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#140078" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iptitle"/>
+
+    <TextView
+        android:id="@+id/mask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mascara"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#140078"
+        />
+
+    <!--
+    <TextView
+        android:id="@+id/net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/netid"
+        android:layout_below="@id/edit1"
+        android:textColor="#140078"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/broad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/broad"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/net"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#140078"
+        />
+
+    <TextView
+        android:id="@+id/chost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/host"
+        android:layout_below="@+id/broad"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#140078"
+        />
+
+<!--
+    <TextView
+        android:id="@+id/phost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phost"
+        android:layout_alignParentLeft="true"
+
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#140078"
+        />
+    -->
+</RelativeLayout>

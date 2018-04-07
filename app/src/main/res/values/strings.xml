@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DireccionIPcarmen</string>
+    <string name="ip">IP</string>
+    <string name="mascara">Mascara</string>
+    <string name="netid">Net ID</string>
+    <string name="broad">Broadcast</string>
+    <string name="host">Cantidad de Host</string>
+    <string name="pred">Parte de Red</string>
+    <string name="phost">Parte de Host</string>
+
+
+</resources>
